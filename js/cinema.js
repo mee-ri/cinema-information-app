@@ -18,12 +18,12 @@ var year = date.getFullYear();
 date = day + "." + month + "." + year;
 document.getElementById("heading").innerHTML = "Finnkino-elokuvateattereiden tarjonta<br>" + date;
 
-// When user has already used the search field and wants to use the pull-down menu, the search field is emptied to avoid confusion
+// When user has already used the search field and wants to use the drop-down menu, the search field is emptied to avoid confusion
 document.getElementById("cinema").addEventListener("click", function(){
    document.getElementById("search").value = "";
 });
 
-// When user has chosen an area or cinema from the pull-down menu, start loading XML
+// When user has chosen an area or cinema from the drop-down menu, start loading XML
 function showMovies() {
    document.getElementById("cinema").select();
    switch (document.getElementById("cinema").value) {
