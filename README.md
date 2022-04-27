@@ -35,6 +35,6 @@ The decision to make the app in Finnish was not premeditated, but it turned out 
   
 Inspired by an UX course I'm simultaneously enrolled on, *User-Centered Design of Digital Services* (Laurea UAS 5 ects), I went the extra mile to make the user experience more enjoyable. :blush: In addition to implementing the scroll button and the possibility to search for cinemas by their nickname, I also added these features:  
 :thumbsup: on loading the page, the cursor jumps automatically to the drop-down menu to enable instant searches  
-:thumbsup: the search field converts the user's string input to the cinema's real name to clarify which cinema the app interpreted the user meant  
+:thumbsup: the search field converts the user's string input to the cinema's complete name to clarify which cinema the app interpreted the user meant  
 :thumbsup: the movie duration data is converted from minutes to hours and minutes, and  
 :thumbsup: when the user has already used the search field and wants to use the drop-down menu, the search field is emptied to avoid confusion on which search option's data is being displayed.  
